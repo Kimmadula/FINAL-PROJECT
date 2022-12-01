@@ -1,0 +1,83 @@
+.nav-item  {
+	font-size: 25px;
+}
+.title h1 {
+	text-align: center;
+	font-size: 60px;
+	position:relative;
+	right: 30px;
+	top: 20px;
+}
+img {
+	height: 100px;
+} 
+/*---------------------------------------------------------ABOUT----------------------------------*/
+.container {
+	text-align: center;
+
+}
+.ab h1{ 
+	font-size:50px;
+	padding-top: 60px;
+	margin: auto;
+	line-height: 50px;
+}
+.team {
+	margin: 10px;
+	padding: 22px;
+	max-width: 30%;
+	cursor: pointer;
+	transition: 0.4s;
+	box-sizing: border-box;
+
+}
+.sub-container{
+	max-width: 1200px;
+	margin: auto;
+	padding: 48px 0;
+	display: flex;
+}	
+.team:hover {
+	background: #ddd;
+	border-radius: 12px;
+}
+.name {
+	padding: 12px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase; 
+}
+.about {
+	margin: 20px 0;
+	font-weight: lighter;
+}
+.social-links {
+	margin: 14px;
+}
+.social-links a:hover{
+	transform: scale(1.5);
+}
+.social-links a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+.social-links a i{
+	color: red;
+}
+/*---------------------------------------------------------ABOUT----------------------------------*/
+
+.moalboal img{
+	height: 270px;
+	border-radius: 12px;
+	margin-left: 45px;
+	margin-top: 210px;
+	width: 440px;
+	box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+.moalboal img:hover {
+	transform: scale(1.1);
+	transition: 0.5s ease; 
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
