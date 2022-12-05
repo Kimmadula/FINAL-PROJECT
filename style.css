@@ -1,12 +1,26 @@
 .nav-item  {
 	font-size: 25px;
 }
-.title h1 {
+.title {
+	position:absolute;
+	top: 50%;
+	left:30%;
+	transform: translate(-50%,-50%);
+	font-family: 'Kanit', sans-serif;
+
+}
+.title h1{
 	text-align: center;
 	font-size: 60px;
-	position:relative;
-	right: 30px;
-	top: 20px;
+	color: #fff;
+	font-family: 'Kanit', sans-serif;
+}
+.title p{
+	font-size: 16px;
+	font-family: 'Kanit', sans-serif;
+	color: #0089FF;
+	margin-left: 20px;
+	
 }
 img {
 	height: 100px;
@@ -66,7 +80,6 @@ img {
 	color: red;
 }
 /*---------------------------------------------------------ABOUT----------------------------------*/
-
 .moalboal img{
 	height: 270px;
 	border-radius: 12px;
@@ -78,6 +91,41 @@ img {
 .moalboal img:hover {
 	transform: scale(1.1);
 	transition: 0.5s ease; 
-	background-color: rgba(0, 0, 0, 0.75);
+}
+.carousel-item img{
+	width: 500px;
+	height: 500px;
+}
+.bg-img-1 {
+
+  	background-image: url(https://happyfrogtravels.com/wp-content/uploads/2021/07/Camotes-Islands-01.jpg);/*camote island*/
+}
+.bg-img-2 {
+
+  	background-image: url(https://vickyflipfloptravels.com/wp-content/uploads/2015/03/Kawasan-Waterfalls.jpg.webp);/*moalboal*/
+}
+.bg-img-3 {
+
+  	background-image: url(https://images.squarespace-cdn.com/content/v1/54a54f64e4b0f7d742d66ec9/1587217280855-H839HW9S3HT358YD8RBY/The-Island.gif?format=2500w);/*bantayan island*/
+}
+.carousel-image {
+	height: 745px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.navbar  {
+	background-color: rgb(0, 0, 0, 0.75);
+}
+.carousel-indicators button{
+  	height: 10px !important;
+  	width: 10px !important;
+  	margin: 0 10px !important;
+  	border-radius: 100%;
+  	background-color: #fff !important;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
 }
 
